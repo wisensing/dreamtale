@@ -1,0 +1,48 @@
+export const Colors = {
+  primary: "#6C5CE7",
+  primaryLight: "#A29BFE",
+  primaryDark: "#4834D4",
+  secondary: "#FD79A8",
+  accent: "#FDCB6E",
+  success: "#00B894",
+  warning: "#FDCB6E",
+  danger: "#E17055",
+  background: "#F8F9FE",
+  backgroundDark: "#1A1A2E",
+  surface: "#FFFFFF",
+  surfaceDark: "#16213E",
+  text: "#2D3436",
+  textSecondary: "#636E72",
+  textLight: "#DFE6E9",
+  border: "#DFE6E9",
+  borderDark: "#2D3436",
+  chatBubble: "#F0EDFF",
+  chatBubbleUser: "#6C5CE7",
+  sleepy: "#2D3436",
+  starYellow: "#FDCB6E",
+  moonBlue: "#74B9FF",
+};
+
+export const Shadows = {
+  small: {
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  medium: {
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  large: {
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+};
